@@ -1,0 +1,14 @@
+[user]
+	email = satetsu888@gmail.com
+	name = shotaro.akiyama
+[alias]
+	co = commit
+	b = branch
+	st = status
+	ch = checkout
+[color]
+	ui = auto
+[core]
+	editor = vim
+[push]
+	default = current
