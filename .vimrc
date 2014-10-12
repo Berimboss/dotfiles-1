@@ -14,17 +14,17 @@ filetype off
 if has('vim_starting')
   set runtimepath+=~/.vim/neobundle.vim
 
-  call neobundle#rc(expand('~/.bundle'))
+  call neobundle#begin(expand('~/.bundle/'))
+  NeoBundleFetch 'Shougo/neobundle.vim'
+  call neobundle#end()
 endif
 
 NeoBundle 'git://github.com/Shougo/echodoc.git'
 NeoBundle 'git://github.com/Shougo/neocomplcache.git'
-NeoBundle 'git://github.com/Shougo/neobundle.vim.git'
 NeoBundle 'git://github.com/Shougo/unite.vim.git'
 NeoBundle 'git://github.com/Shougo/vim-vcs.git'
 NeoBundle 'git://github.com/Shougo/vimfiler.git'
 NeoBundle 'git://github.com/Shougo/vimshell.git'
-NeoBundle 'git://github.com/Shougo/vimproc.git'
 NeoBundle 'git://github.com/Shougo/vinarise.git'
 NeoBundle 'git://github.com/OrangeT/vim-csharp.git'
 NeoBundle 'git://github.com/jeroenbourgois/vim-actionscript.git'
