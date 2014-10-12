@@ -21,8 +21,8 @@ endif
 
 NeoBundle 'git://github.com/Shougo/echodoc.git'
 NeoBundle 'git://github.com/Shougo/neocomplcache.git'
-NeoBundle 'git://github.com/Shougo/neomru.git'
 NeoBundle 'git://github.com/Shougo/unite.vim.git'
+NeoBundle 'Shougo/neomru.vim'
 NeoBundle 'git://github.com/Shougo/vim-vcs.git'
 NeoBundle 'git://github.com/Shougo/vimfiler.git'
 NeoBundle 'git://github.com/Shougo/vimshell.git'

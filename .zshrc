@@ -52,7 +52,7 @@ function git-current-branch {
     echo "%{$color%}$name%{$reset_color%}"
 }
 
-
-PROMPT='[%~ `rprompt-git-current-branch`]# '
+setopt prompt_subst
+PROMPT='[%~ `git-current-branch`]# '
 RPROMPT='[%n@%m]'
 
