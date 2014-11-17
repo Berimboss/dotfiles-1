@@ -2,6 +2,8 @@
 syntax enable;
 colorscheme desert
 
+set backspace=indent,eol,start
+
 set expandtab
 set ts=4
 set sw=4
