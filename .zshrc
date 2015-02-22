@@ -1,6 +1,6 @@
 fpath=($(brew --prefix)/share/zsh/site-functions $fpath)
 
-export PATH="/opt/chef/embedded/bin:/opt/chef/bin:$PATH"
+export PATH="/usr/local/bin/:/opt/chef/embedded/bin:/opt/chef/bin:$PATH"
 
 export LC_ALL=ja_JP.UTF-8
 
